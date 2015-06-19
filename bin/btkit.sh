@@ -46,8 +46,7 @@ exit $1
 
 if [ $# -eq "$NO_ARGS" ]    # Script invoked with no command-line args?
 then
-    usage
-    exit $E_OPTERROR          # Exit and explain usage.
+    usage $E_OPTERROR
 fi
 
 # Arguments
@@ -66,7 +65,7 @@ do
         u ) URL=$OPTARG;;
         m ) METHOD=$OPTARG;;
         H ) HEADER=$OPTARG;;
-        h ) usage; exit ;;
+        h ) usage 0;;
         l ) LATENCY=$OPTARG;;
         s ) STATUS=$OPTARG;;
         r ) REQ_ID=$OPTARG;;

@@ -1,0 +1,32 @@
+{
+  "name": "bunyan-toolkit",
+  "version": "1.0.0",
+  "description": "tool kit for analyzing bunyan logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+      "btkit": "./bin/btkit.sh",
+      "req": "./bin/req.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunong/bunyan-toolkit.git"
+  },
+  "keywords": [
+    "bunyan",
+    "restify",
+    "logs",
+    "grep"
+  ],
+  "author": "Yunong Xiao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yunong/bunyan-toolkit/issues"
+  },
+  "homepage": "https://github.com/yunong/bunyan-toolkit#readme",
+  "dependencies": {
+    "bunyan": "1.4.0"
+  }
+}

@@ -42,9 +42,10 @@ btkit -s 500 restify.log | bunyan
 This returns all the logs the returned a 500 response.
 
 ```bash
-btki -s 200 restify.log
+btki -s 500 -l 250 restify.log
 ```
-would return all restify audit logs that returned a 200 response.
+would return all restify audit logs that returned a 500 response that also took
+longer than 250 ms.
 
 
 # More info

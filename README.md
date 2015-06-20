@@ -13,7 +13,7 @@ npm install -g bunyan-toolkit
 
 ```bash
 # Find all requests that
-# 1) have a url wiht a path 'Prof'
+# 1) have a url with a path 'Prof'
 # 2) returned HTTP 200
 # 3) has a latency > 600 ms
 # 4) includes a header of 'accept-encoding'

@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "btkit": "./bin/btkit.sh",
-    "req": "./bin/req.sh"
+    "btkit": "./bin/btkit.sh"
   },
   "repository": {
     "type": "git",
